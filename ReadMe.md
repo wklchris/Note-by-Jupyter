@@ -1,9 +1,15 @@
 # Introduction [ 引言 ]
 
-Most notes here are in "ipynb" format, which is a abbreviation for "__Ipy__thon **N**ote__b__ook". It will provide you a comfortable reading experience via your web browser. 
+Most notes here are in "ipynb" format, which is a abbreviation for "**Ipy**thon **N**ote**b**ook". It will provide you a comfortable reading experience via your web browser. 
 **They are created by Jupyter.**  
-【这里的大部分笔记都是使用 "ipynb" 格式的。它是 "__Ipy__thon **N**ote__b__ook" 的缩写。它仅仅要求你有一个网页浏览器，就能提供给你舒适的阅读体验。
+【这里的大部分笔记都是使用 "ipynb" 格式的。它是 "**Ipy**thon **N**ote**b**ook" 的缩写。它仅仅要求你有一个网页浏览器，就能提供给你舒适的阅读体验。
 **它们由 Jupyter 创建。**】
+
+Quick link of notes: 【笔记传送门】
+
+- Python 3：
+  - [Numpy & Pandas](https://github.com/wklchris/Note-by-Jupyter/blob/master/Python/Numpy%20&%20Pandas.ipynb)
+  - [Matplotlib](https://github.com/wklchris/Note-by-Jupyter/blob/master/Python/Matplotlib.ipynb)
 
 # What is Jupyter？ [ 什么是Jupyter? ]
 
