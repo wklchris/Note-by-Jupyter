@@ -5,10 +5,11 @@ Most notes here are in "ipynb" format, which is a abbreviation for "**Ipy**thon 
 【这里的大部分笔记都是使用 "ipynb" 格式的。它是 "**Ipy**thon **N**ote**b**ook" 的缩写。它仅仅要求你有一个网页浏览器，就能提供给你舒适的阅读体验。
 **它们由 Jupyter 创建。**】
 
-Quick link of notes: 【笔记传送门】
+Quick links for my notes: 【笔记传送门】
 
 - Python 3：
-  - [Numpy & Pandas](https://github.com/wklchris/Note-by-Jupyter/blob/master/Python/Numpy%20&%20Pandas.ipynb)
+  - [Numpy](https://github.com/wklchris/Note-by-Jupyter/blob/master/Python/NumPy.ipynb)
+  - [Pandas](https://github.com/wklchris/Note-by-Jupyter/blob/master/Python/Pandas.ipynb)
   - [Matplotlib](https://github.com/wklchris/Note-by-Jupyter/blob/master/Python/Matplotlib.ipynb)
 
 # What is Jupyter？ [ 什么是Jupyter? ]
@@ -37,6 +38,16 @@ Then you can run Jupyter by input this in the command line:
 
 Your web browser will be opened automatically and the interface of Jupyter will show up.  
 【 你的网页浏览器会自动打开，并将 Jupyter 的界面呈现给你。】
+
+# Install R kernel if you need [ 安装 R 语言内核（如需） ]
+
+Visit [IRkernel website installation guide](https://irkernel.github.io/installation/) to get ready for using R in Jupyter! Simply speaking, it requires you to input these lines in the R console:
+
+【访问[IRkernel安装指导](https://irkernel.github.io/installation/)来设置你的 Jupyter，使之能够与 R 协同工作。简单说来就是在 R 控制台输入以下几行：】
+
+    install.packages(c('repr', 'IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest'))
+    devtools::install_github('IRkernel/IRkernel')
+    IRkernel::installspec()
 
 # Create a New File and Get Start! [ 创建新文件并开始吧! ]
 
