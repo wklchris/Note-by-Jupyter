@@ -8,7 +8,7 @@ Most notes here are in "ipynb" format, which is a abbreviation for "**Ipy**thon 
 Quick links for my notes: 【笔记传送门】
 
 - Python 3：
-  - [Numpy](https://github.com/wklchris/Note-by-Jupyter/blob/master/Python/NumPy.ipynb)
+  - [Numpy](https://github.com/wklchris/Note-by-Jupyter/blob/master/Python/Numpy.ipynb)
   - [Pandas](https://github.com/wklchris/Note-by-Jupyter/blob/master/Python/Pandas.ipynb)
   - [Matplotlib](https://github.com/wklchris/Note-by-Jupyter/blob/master/Python/Matplotlib.ipynb)
 
