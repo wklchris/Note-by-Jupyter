@@ -49,7 +49,28 @@ Visit [IRkernel website installation guide](https://irkernel.github.io/installat
     devtools::install_github('IRkernel/IRkernel')
     IRkernel::installspec()
 
+Please make sure that **R installation path is in the PATH environment variable of Windows**! 
+
+【 请确保你的 R 安装路径位于 Windows 系统的环境变量中！ 】 
+
 # Create a New File and Get Start! [ 创建新文件并开始吧! ]
 
 On the top right corner of the Jupyter webpage, you will see a "New" drop-down menu. You will surely see "Python" in it. If you want to work with other kinds of kernel, please tend to Jupyter official website for help.   
 【 在页面的右上角，你会看到一个名叫“ New (新建) ” 的下拉菜单，其中必定含有“ Python ” 这个选项。如果你想调用其他语言的内核，请前往 Jupyter 官方站点寻找帮助。 】
+
+# Others [ 其他 ]
+
+## How to input '|' inside a table of Markdown cell [ 怎样在Markdown模式下的表格中输入一个 '|' 符号？ ]
+
+Using： `&#124;` 【使用 `&#124;` 即可。】
+
+## Remove a Kernel from List [ 从列表移除一个内核 ]
+You can remove a kernel from the list if you don't need it anymore. In Windows, you can find externel kernels in:
+
+【 你可以把不需要的内核从列表中移除。在 Windows 环境下，你可以在以下路径找到你安装的外部内核： 】
+
+    C:\Users\$UserName$\AppData\Roaming\jupyter\kernels
+
+Delete which you don't need so that you can get them removed from the list in Jupyter.
+
+【 将你不需要的内核文件夹删除，你就可以将它们从 Jupyter 的列表中去除了。 】 

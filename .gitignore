@@ -1,5 +1,9 @@
 # Jupyter
 Jupyter Laucher.bat
 
+# R Workspace Files
+R/.RData
+R/*/.RData
+
 # Ipython folder
 */.ipynb_checkpoints
